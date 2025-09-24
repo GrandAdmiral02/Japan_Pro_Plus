@@ -1,4 +1,4 @@
-// File: C:\Users\thait\Downloads\Japan_Pro_Plus-main\Japan_Pro_Plus-main\app\page.tsx
+// File: D:\Website\Quang_Dung_Center\Japan_Pro_Plus\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
