@@ -58,7 +58,7 @@ export function UserManagement() {
             name: "Nguyen Van A",
             role: "student",
             created_at: "2025-09-24T13:00:00Z",
-            last_sign_in_at: null,
+           
           },
           {
             id: "2",
@@ -80,7 +80,7 @@ export function UserManagement() {
           name: "Nguyen Van A",
           role: "student",
           created_at: "2025-09-24T13:00:00Z",
-          last_sign_in_at: null,
+          last_sign_in_at: "2025-09-24T13:00:00Z",
         },
         {
           id: "2",

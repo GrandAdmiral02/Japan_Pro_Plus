@@ -14,7 +14,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { CourseRegistrationModal } from "./CourseRegistrationModal";
 
 interface Course {
-  id: string;
+  id: number;
   title: string;
   description: string;
   level: string;
@@ -25,6 +25,7 @@ interface Course {
   schedule?: string;
   status?: string;
   is_popular?: boolean;
+  duration?: string; // Add this line
 }
 
 export function CoursesSection() {
@@ -52,7 +53,7 @@ export function CoursesSection() {
         console.log("API Data:", data);
         if (data.success) {
           const formattedCourses = data.data.map((course: any) => ({
-            id: course.id.toString(),
+         id: Number(course.id), // Change to convert to number
             title: course.title,
             description: course.description || "Chưa có mô tả",
             level: course.level,
@@ -268,7 +269,7 @@ export function CoursesSection() {
                         </span>
                         <span className="text-muted-foreground font-medium"> VNĐ</span>
                       </div>
-                      <CourseRegistrationModal Course ={course}>
+                      <CourseRegistrationModal course ={course}>
                         <Button className="bg-gradient-to-r from-primary to-pink-600 hover:from-primary/90 hover:to-pink-600/90 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
                           Đăng ký ngay
                         </Button>
