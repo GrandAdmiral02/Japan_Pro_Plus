@@ -5,12 +5,6 @@
       "static/chunks/_app-pages-browser_src_App_tsx.js"
     ]
   },
-  "..\\app\\student\\page.tsx -> ../../src/App": {
-    "id": "..\\app\\student\\page.tsx -> ../../src/App",
-    "files": [
-      "static/chunks/_app-pages-browser_src_App_tsx.js"
-    ]
-  },
   "..\\node_modules\\.pnpm\\@supabase+auth-js@2.71.1\\node_modules\\@supabase\\auth-js\\dist\\module\\lib\\helpers.js -> @supabase/node-fetch": {
     "id": "..\\node_modules\\.pnpm\\@supabase+auth-js@2.71.1\\node_modules\\@supabase\\auth-js\\dist\\module\\lib\\helpers.js -> @supabase/node-fetch",
     "files": []
